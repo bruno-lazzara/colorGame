@@ -19,7 +19,6 @@ body {
 #container {
 	margin: 20px auto;
 	max-width: 600px;
-
 }
 
 h1 {
@@ -31,6 +30,10 @@ h1 {
 	margin: 0;
 	text-transform: uppercase;
 	padding: 20px 0;
+}
+
+#reset {
+	cursor: pointer;
 }
 
 #colorDisplay {
@@ -51,6 +54,14 @@ h1 {
 .selected {
 	color: white;
 	background: steelblue;
+}
+
+.mode {
+	cursor: pointer;
+}
+
+.squarePointer {
+	cursor: pointer;
 }
 
 button {
